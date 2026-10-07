@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Iker Rodríguez García</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor">
+
+    <header class="cabecera">
+      <span>~/portfolio</span>
+      <nav>
+        <a href="#proyectos">proyectos</a>
+        <a href="#experiencia">experiencia</a>
+        <a href="#estudios">estudios</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <div class="presentacion">
+        <figure class="pegatina">
+          <img src="imagenes/yo_programando.jpg" alt="Dibujo de una persona con auriculares frente a un portátil">
+          <figcaption>yo programando</figcaption>
+        </figure>
+
+        <div class="presentacion-texto">
+          <p class="etiqueta-arriba">Portfolio personal · Desarrollo web</p>
+          <h1><span>Iker Rodríguez García</span></h1>
+          <p class="intro">
+            Estudiante de Desarrollo de Aplicaciones Web. Me interesa el mundo 
+            de la programación y el desarrollo web, y disfruto aprendiendo nuevas
+            tecnologías. Aquí tienes mis
+            proyectos, mi experiencia y mi formación.
+          </p>
+
+          <div class="botones">
+            <a class="boton" href="https://www.linkedin.com/in/iker-rodr%C3%ADguez-garc%C3%ADa-7115bb292/" target="_blank">LinkedIn</a>
+            <a class="boton" href="https://github.com/ikerrguez" target="_blank">GitHub</a>
+            <a class="boton" href="mailto:ipirodriguez28@gmail.com">Correo</a>
+            <a class="boton" href="documentos/Currículum.pdf" download="CV_Iker_Rodriguez_Garcia.pdf">Descargar CV</a>
+          </div>
+        </div>
+      </div>
+
+      <section id="proyectos">
+        <p class="etiqueta">// lo que he construido</p>
+        <h2>Proyectos</h2>
+
+        <div class="proyectos">
+          <article class="proyecto">
+            <a href="https://casadecarnes.blog/" target="_blank">
+              <img src="imagenes/proyecto1.jpg" alt="Captura del proyecto 1">
+            </a>
+            <div class="proyecto-texto">
+              <h3>Web de mi casa rural</h3>
+              <p>Sitio web con información del alojamiento, galería de imágenes y reservas online.</p>
+              <ul class="etiquetas"><li>WordPress</li></ul>
+            </div>
+          </article>
+
+          <article class="proyecto">
+            <a href="https://github.com/ikerrguez/Hundir-la-flota" target="_blank">
+              <img src="imagenes/proyecto2.jpg" alt="Captura del proyecto 2">
+            </a>
+            <div class="proyecto-texto">
+              <h3>Hundir la flota</h3>
+              <p>Juego naval en Java con interfaz gráfica, turnos, flotas aleatorias y sistema de impactos.</p>
+              <ul class="etiquetas"><li>Java</li><li>IntelliJ</li></ul>
+            </div>
+          </article>
+
+          <article class="proyecto">
+            <a href="https://github.com/ikerrguez/EntregaIDE_IRG" target="_blank">
+              <img src="imagenes/proyecto3.jpg" alt="Captura del proyecto 3">
+            </a>
+            <div class="proyecto-texto">
+              <h3>Gestión de pedidos de comida a domicilio</h3>
+              <p>Aplicación desarrollada en Java para la gestión, control y seguimiento de pedidos de comida a domicilio.</p>
+              <ul class="etiquetas"><li>Java</li><li>Eclipse</li></ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experiencia">
+        <p class="etiqueta">// dónde he trabajado</p>
+        <h2>Experiencia laboral</h2>
+
+        <ol class="linea-tiempo">
+          <li>
+            <p class="fecha">jul 2026</p>
+            <h3>Técnico de montaje de eventos en Casas Novas</h3>
+            <p class="lugar">Oxer Sport</p>
+            <p>Montaje, preparación de espacios y apoyo en tareas logísticas para eventos.</p>
+          </li>
+          <li>
+            <p class="fecha">sept 2025 - abril 2026</p>
+            <h3>Entrenador de fútbol</h3>
+            <p class="lugar">Atlético Arteixo</p>
+            <p>Gestión de equipos y desarrollo deportivo.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section id="estudios">
+        <p class="etiqueta">// de dónde vengo</p>
+        <h2>Estudios</h2>
+
+        <ol class="linea-tiempo">
+          <li class="actual">
+            <p class="fecha">2025 – actualidad</p>
+            <h3>Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web</h3>
+            <p class="lugar">Liceo La Paz</p>
+          </li>
+          <li>
+            <p class="fecha">2023 – 2025</p>
+            <h3>Bachillerato</h3>
+            <p class="lugar">I.E.S de Sabón</p>
+          </li>
+          <li>
+            <p class="fecha">2019 – 2023</p>
+            <h3>Educación Secundaria Obligatoria</h3>
+            <p class="lugar">I.E.S Manuel Murguía</p>
+          </li>
+        </ol>
+      </section>
+
+    </main>
+
+    <footer class="pie">
+      <span>© 2026 Iker Rodríguez García</span>
+      <span>hecho a mano con HTML y CSS</span>
+    </footer>
+
+  </div>
+</body>
+</html>
